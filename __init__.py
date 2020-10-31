@@ -3,11 +3,11 @@ from django.utils.translation import gettext_lazy as _
 
 
 class CurrencyConfig(AppConfig):
-    name = 'box.core.sw_currency'
+    name = 'sw_currency'
     verbose_name = _('Валюти')
 
 
-default_app_config = 'box.core.sw_currency.CurrencyConfig'
+default_app_config = 'sw_currency.CurrencyConfig'
 
 
 
