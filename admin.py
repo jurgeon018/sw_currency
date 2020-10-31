@@ -8,7 +8,7 @@ from modeltranslation.admin import TabbedTranslationAdmin
 
 from .resources import *
 
-from sw_utils.sw_solo.admin import SingletonModelAdmin
+from sw_solo.admin import SingletonModelAdmin
 
 
 class ParseCurrencyInline(admin.TabularInline):

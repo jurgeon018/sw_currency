@@ -1,6 +1,6 @@
 from django.utils.translation import gettext_lazy as _
 from django.db import models 
-from sw_utils.sw_solo.models import SingletonModel 
+from sw_solo.models import SingletonModel 
 
 
 class ParseCurrency(models.Model):
